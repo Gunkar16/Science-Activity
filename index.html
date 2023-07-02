@@ -1,18 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <title>Hydrogen</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trial</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Maven+Pro:wght@500&family=Pacifico&family=Poppins&family=Rajdhani:wght@500&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- <link rel="icon" type="image/x-icon" id="x-icon" href="result.png"> -->
 </head>
+
 <body>
+    <video autoplay muted loop id="myVideo">
+        <source src="background.mp4" type="video/mp4">
+    </video>
     <ul>
-        <li><a href="">Intro</a></li>
-        <li><a href="">Origin</a></li>
-        <li><a href="">Concerts</a></li>
-        <li><a href="">Songs</a></li>
+        <h2 id="Nav_Title">
+            <!-- <a target="_blank" href="https://en.wikipedia.org/wiki/Hydrogen"><img id="h2" src="result.png"></a> -->
+        </h2>
+        <li id="A"><a class="A" href="#home2"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+        </li>
+        <li id="J"><a class="A" href="#lol1">Hydrogen</a></li>
+        <li id="Ac"><a class="A" href="#lol">Fuel</a></li>
+        <li id="C"><a class="A" href="#lol2">Advantages</a></li>
+        <li id="M"><a class="A" href="#lol3">Problems and Fears</a></li>
+        <li id="Mv"><a class="A" href="#lol4">Our views</a></li>
     </ul>
+    <div id="home2">
+        <h1 class="heading hydrogen">Hydrogen :<br>Fuel of the Future</h1>
+        <h1 class="heading hydrogen2"></h1>
+    </div>
+    <div id="lol1"></div>
+    <div id="home" class="reveal">
+        <h1 class="heading">Hydrogen</h1>
+        <div class="vr"></div>
+        <p id="about"><b>
+                Hydrogen is the lightest and most abundant element in
+                the universe</b></p>
+        <p id="about2"><b>It's essential for life and even the sun is mostly made out of it . Most of the hydrogen on
+                the earth exists combined with oxygen in the form of Water 🌊 . Hydrogen is colorless , odourless and
+                tasteless . It makes up 73 % of the entire Universe and was created during the Big Bang . At standard
+                conditions hydrogen is a gas of diatomic molecules having the formula H<sub>2</sub> .</b></p>
+
+        <img id="home_pic" src="Hydrogen.gif">
+    </div>
+    <div id="lol"></div>
+    <div id="journey" class="reveal">
+        <h1 class="heading">Fuel</h1>
+        <div class="vr"></div>
+        <!-- <div id="divider"></div> -->
+        <div id="back_cover"></div>
+
+        <p id="journey_para">To turn hydrogen into a fuel first of all we must understand that unlike petrol and diesel
+            which are a primary energy source , hydrogen is an energy carrier so that's why you have to split
+            molecules to make hydrogen or simply saying you have to make hydrogen from something and there are two ways
+            to do that :
+        </p>
+        <div id="slideshow">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade electricSlide">
+                    <div class="numbertext">1 / 2</div>
+                    <img src="electricity.gif" class="slideImage " style="width:100%">
+                    <div class="text electricText">
+                        <b>Electrolysis</b> uses an electric current to split water into hydrogen and oxygen. The
+                        process
+                        occurs in an electrolytic cell with two electrodes—an anode and a cathode. Oxygen forms at the
+                        anode through oxidation, while hydrogen forms at the cathode through reduction. The electric
+                        current helps ions move, allowing positively charged hydrogen ions (protons) to combine with
+                        electrons and generate hydrogen gas. Electrolysis provides a clean and efficient way to obtain
+                        hydrogen for energy applications.
+                    </div>
+                </div>
+
+                <div class="mySlides fade steamSlide">
+                    <div class="numbertext">2 / 2</div>
+                    <img src="steam.gif" class="slideImage steam" style="width:100%">
+                    <div class="text"><b>Steam reforming </b>
+                        is a commonly employed technique for large-scale hydrogen production. It entails
+                        heating hydrocarbon feedstocks, such as natural gas or methane, in the presence of steam and a
+                        catalyst. The high-temperature reaction breaks down the hydrocarbons into hydrogen gas, carbon
+                        monoxide, and traces of other gases, forming a versatile syngas mixture that can be purified to
+                        obtain high-purity hydrogen for various industrial applications and clean energy purposes.
+
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+            <br>
+        </div>
+        <p id="journey_para2">Once you have hydrogen you can either burn it directly or mix it with oxygen in a fuel
+            cell , the reaction in the fuel cell produces electricity or heat and <b>the only emission that comes out of
+                the tailpipe is pure drinkable water .</b></p>
+        <img id="fuelCell" src="fuelCell.jpg" alt="">
+    </div>
+    <div id="lol2"></div>
+    <div id="achievements" class="reveal">
+        <h1 class="heading">Advantages</h1>
+        <div class="vr"></div>
+        <hr id="above">
+        <div class="container">
+
+            <div class="block">
+
+                <video onmouseover="pla(this)" onmouseleave="paus(this)" class="liveVideo" muted loop>
+                    <source type="video/mp4" src="car.mp4">
+                </video>
+
+                <div class="liveText"><b>Hydrogen Powered Car</b></div>
+            </div>
+
+            <div class="block">
+
+                <video onmouseover="pla(this)" onmouseleave="paus(this)" class="liveVideo" muted loop>
+                    <source type="video/mp4" src="aeroplane.mp4">
+                </video>
+
+                <div class="liveText"><b>Hydrogen Powered Plane</b></div>
+            </div>
+
+            <div class="block">
+
+                <video onmouseover="pla(this)" onmouseleave="paus(this)" class="liveVideo" muted loop>
+                    <source type="video/mp4" src="truck.mp4">
+                </video>
+
+                <div class="liveText"><b>Hydrogen Powered Truck</b></div>
+            </div>
+        </div>
+        <ol id="journeyPara3">
+            <h1 class="journeys">1. High energy efficiency: Hydrogen can generate electricity with higher efficiency in
+                fuel cells compared to traditional combustion engines.
+
+            </h1>
+            <h1 class="journeys">2. Versatility: Hydrogen can be used to power various applications, including
+                transportation, heating, and electricity generation.
+            </h1>
+            <h1 class="journeys">3. Environmental cleanliness: Hydrogen combustion only produces water vapor as a
+                byproduct, resulting in zero greenhouse gas emissions and improved air quality.</h1>
+            <h1 class="journeys">4. Energy storage: Hydrogen can be produced during periods of excess renewable energy
+                generation and stored for later use, addressing the challenge of energy supply-demand imbalance.</h1>
+            <h1 class="journeys">5. Abundance and availability: Hydrogen can be produced from diverse sources, including
+                water, biomass, and natural gas, ensuring a sustainable supply. It can also be produced using renewable
+                energy sources.
+            </h1>
+        </ol>
+        <img src="HydrogenForAll.jpg" alt="" id="hydrogenForAll">
+        <img src="greenhydro.webp" alt="" id="greenHydro">
+    </div>
+    <div id="lol3"></div>
+    <div id="collaborations" class="reveal">
+        <h1 class="heading">Problems and Fears</h1>
+        <div class="vr"></div>
+        <p id="prob" class="all">Well this isn't the first time hydrogen has been hailed as a fuel of the future , so
+            the question
+            is why hasn't it never taken off and the answer to this question is until now renewables were not in a large
+            scale so thats why making hydrogen required vast amounts of fossil fuel or nuclear energy which made
+            Hydrogen more exensive , less effecient and a waste of energy. </p>
+        <iframe id="hype" width="900" height="506" src="https://www.youtube.com/embed/AGTjKJHu99c"
+            title="The truth about hydrogen" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+        <img id="hydro" src="hydrogen.jpg" alt="">
+
+        <p id="prob2" class="all">There has also been a battle against public perception of hydrogen's safety sparked by
+            the hindenburg disaster in 1937 . I agree that Hydrogen is very flammable gas and does need to be stored in
+            a specific way but fears about its safety are overblown and also its been proven that hindernburg did
+            explode because of the hydrogen instead the official cause of the fire was due to "discharge of atmospheric
+            electricity" near a gas leak on the ship's surface;
+        </p>
+        <img src="hidenburg.jpg" alt="" id="hindenburg">
+        <p id="prob3" class="all">
+            Some people even think that hydrogen is a waste of renewable energy . They say that we use "electricity" to
+            make hydrogen and then from that hydrogen we obtain "electricity" to make engines work . These people are
+            right partially . It doesn't mean if we "can"
+            use hydrogen then we "must" use hydrogen for everything . Some appliances can be run by electricity and
+            others can be run by hydrogen , for example trucks need to transport things from place to another asap and
+            to do that hydrogen is the best option as if fills up faster in the tank than electricity .
+        </p>
+
+
+
+
+    </div>
+
+    <div id="lol4"></div>
+    <div id="myViews" class="reveal">
+        <h1 class="heading mV">Our views</h1>
+
+        <img src="fight.jpg" id="pic" alt="">
+        <!-- <hr id="line"> -->
+        <!-- <div class="triangle-up"></div> -->
+        <div class="rectangle">"In the quest for a sustainable future, hydrogen emerges as a promising fuel, offering
+            hope for a cleaner and greener world. Its potential seems boundless, with its abundant availability and the
+            ability to produce it through various methods. When used as fuel, hydrogen emits only water vapor, making it
+            an appealing alternative to fossil fuels. However, it's important not to overlook the role of electricity,
+            which has become more sustainable and efficient with advancements in renewable energy sources like solar and
+            wind power. Electric vehicles contribute to reduced carbon emissions and improved air quality. So, while
+            hydrogen holds immense potential, let us not forget the transformative power of electricity in shaping a
+            sustainable and carbon-neutral world."
+
+        </div>
+    </div>
 </body>
+<footer>
+    <h1 class="heading thanks">Thankyou</h1>
+    <h2 class="heading by">- By Gunkar16</h2>
+</footer>
+
+<script src="main.js"></script>
+</body>
+
 </html>
