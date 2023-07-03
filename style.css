@@ -64,8 +64,7 @@ a {
 #Nav_Title:hover {
     transform: rotate(360deg);
 }
-
-A {
+.A {
     font-family: 'Rajdhani', sans-serif;
     display: block;
     color: white;
@@ -84,7 +83,7 @@ A {
     /* Use padding to get space and use margin to constrict the area to their elements size */
 }
 
-A:hover {
+.A:hover {
     cursor: pointer;
     border: solid 1px white;
     border-radius: 12px;
