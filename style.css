@@ -784,11 +784,15 @@ body{
     transform: translate(-85px,0px);
 }
 .electricText{
-    height:355px;
+    height:321px;
     transform: translate(-765px,-402px);
 }
 .electricSlide{
-    transform: translate(10px,0px);
+    transform: translate(-85px,50px);    
+}
+.electric{
+    transform:translate(0px,-33px);
+    width:650px !important; 
 }
 @keyframes lol {
     from {
@@ -810,7 +814,7 @@ body{
 }
 #h2{
     width: 100px;
-    transform: translate(30px, -35px);
+    transform: translate(20px, -10px);
 }
 .all{
     text-align: center;
