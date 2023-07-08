@@ -247,18 +247,20 @@ a {
     border: solid rgba(255, 255, 255, 0) 0.1px;
 }
 #hydrogenForAll{
-    transform: translate(800px,-843px);
+    transform: translate(270px,-500px);
     transition: 1s;
     width:600px;
-}
-#greenHydro{
-    transition: 1s;
-    transform: translate(150px,-450px);
 }
 #hydrogenForAll:hover{
     border-radius: 40px;
 }
-#greenHydro:hover{
+
+#waterButton{
+    width:550px;
+    transition: 1s;
+    transform: translate(850px,-970px);
+}
+#waterButton:hover{
     border-radius: 40px;
 }
 ol{
