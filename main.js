@@ -50,3 +50,6 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
 }
 
+function comic(link){
+  window.open(link, "_blank");
+}
