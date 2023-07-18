@@ -20,12 +20,17 @@
     <link rel="icon" type="image/x-icon" id="x-icon" href="lol.ico">
     <meta property="og:image" content="fight.jpg">
     <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="1024"> <!-- Set the image width -->
-    <meta property="og:image:height" content="1024">
+    <meta property="og:image:width" content="1000"> <!-- Set the image width -->
+    <meta property="og:image:height" content="400">
+    <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hydrogen : Fuel of the Future">
+<meta name="twitter:description" content="By Gunkar16">
+<meta name="twitter:image" content="fight.jpg">
 </head>
 
 <body>
-    <video autoplay muted loop alt="" id="myVideo">
+    <video autoplay muted loop alt="" onmouseover="pla(this)"
+    onmouseleave="paus(this)"id="myVideo">
         <source src="background.mp4" type="video/mp4">
     </video>
     <ul>
@@ -125,7 +130,7 @@
 
             <div class="block">
 
-                <video onmouseover="pla(this)" onmouseleave="paus(this)" class="liveVideo" muted loop>
+                <video onmouseover="pla(this)" onmouseleave="paus(this)" class="liveVideo" id="hydrogenCarr" muted loop>
                     <source type="video/mp4" src="car.mp4">
                 </video>
 
@@ -134,7 +139,7 @@
 
             <div class="block">
 
-                <video onmouseover="pla(this)" onmouseleave="paus(this)" class="liveVideo" muted loop>
+                <video onmouseover="pla(this)" onmouseleave="paus(this)" class="liveVideo" id="hydrogenAeroo"muted loop>
                     <source type="video/mp4" src="aeroplane.mp4">
                 </video>
 
@@ -143,7 +148,7 @@
 
             <div class="block">
 
-                <video onmouseover="pla(this)" onmouseleave="paus(this)" class="liveVideo" muted loop>
+                <video onmouseover="pla(this)" onmouseleave="paus(this)" class="liveVideo" id="hydrogenTruckk" muted loop>
                     <source type="video/mp4" src="truck.mp4">
                 </video>
 

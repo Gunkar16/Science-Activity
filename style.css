@@ -131,26 +131,26 @@ a {
 #about {
     padding: 20px;
     border: solid white 2px;
-    width: 750px;
+    width: 810px;
     transition: 1s;
     position: static;
     z-index: 1;
     font-family: 'Roboto', sans-serif;
     transform: translate(100px, 120px);
-    font-size: 25px;
+    font-size: 27px;
     background-color: white;
     color: rgb(95, 15, 64);
 }
 #about2{
     padding: 20px;
     border: solid white 2px;
-    width: 850px;
+    width: 870px;
     transition: 1s;
     position: static;
     z-index: 1;
     font-family: 'Roboto', sans-serif;
     transform: translate(100px, 100px);
-    font-size: 22px;
+    font-size: 24px;
     background-color: white;
     color: rgb(95, 15, 64);
     line-height: 1.6;
@@ -235,12 +235,12 @@ a {
     text-align: left;
     padding: 20px;
     border: solid white 2px;
-    width: 600px;
+    width: 630px;
     transition: 0.5s;
     position: static;
     z-index: 1;
     font-family: 'Maven Pro', sans-serif;
-    font-size: 25px;
+    font-size: 27px;
     background-color: white;
     margin-bottom: 10px;
     color: rgb(95, 15, 64);
@@ -264,11 +264,11 @@ a {
     border-radius: 40px;
 }
 ol{
-    margin-top: 100px;
+    margin-top: 130px;
 }
 .journeys:hover{
     border-radius: 30px;
-    background-color: #54ADFF;
+    background-color: #3380FF;
     color: white;
 
 }
@@ -366,13 +366,13 @@ ol{
 }
 
 .liveVideo:hover {
-    scale: 1.2;
+    scale: 1.4;
     border-radius: 10px;
-    transform: translate(0px, 20px);
+    transform: translate(0px, 25px);
 }
 
 .container {
-    margin-left: 95px;
+    margin-left: 85px;
     margin-top: 225px;
 }
 
@@ -702,7 +702,7 @@ ol{
 .rectangle {
     padding:20px;
     position: fixed;
-    height: 350px;
+    height: 400px;
     width: 900px;
     background-color: white;
     border-top-right-radius: 20px;
@@ -713,11 +713,11 @@ ol{
     border: solid white 2px;
     transition: 1s;
     font-family: 'Maven Pro', sans-serif;
-    font-size: 25px;
+    font-size: 27px;
     color: rgb(95, 15, 64);
 }
 #pic{
-    transform: translate(120px,170px);
+    transform: translate(120px,220px);
     position: fixed;
     border-radius: 50%;
     height:300px;
@@ -881,7 +881,7 @@ body{
     border-radius: 10px;;
 }
 #achievements{
-    height:1700px;
+    height:1900px;
 }
 .comic{
     font-size: 50px;
@@ -937,4 +937,16 @@ body{
 }
 .Ravinder1{
     transform: translate(210px,100px);
+}
+#hydrogenCarr:hover{
+    z-index: 101;
+}
+#hydrogenTruckk:hover{
+    z-index: 101;
+}
+#hydrogenAeroo:hover{
+    z-index: 101;
+}
+#lol4{
+    transform: translate(50px,0px);
 }
