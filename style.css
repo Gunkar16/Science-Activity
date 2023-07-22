@@ -490,14 +490,14 @@ ol{
 
 .text {
     width: 700px;
-    height: 409px;
+    height: 322.63px;
     padding: 20px;
     border: solid white 2px;
     transition: 1s;
     position: static;
     z-index: 1;
     font-family: 'Maven Pro', sans-serif;
-    transform: translate(-768px, -456px);
+    transform:translate(-770px, -353px);
     font-size: 25px;
     background-color: white;
     color: rgb(95, 15, 64);
@@ -781,8 +781,9 @@ body{
 
 }
 .steam{
-    height:451px;
+    height:min-content;
     width:650px !important;
+    transform: translate(0px, 16px);
 }
 .steamSlide{
     transform: translate(-85px,0px);
