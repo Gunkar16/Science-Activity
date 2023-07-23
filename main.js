@@ -53,3 +53,7 @@ function showSlides(n) {
 function comic(link){
   window.open(link, "_blank");
 }
+function secret(){
+  alert("Congratualations you discovered the hidden question 😃")
+  window.open("secret.png", "_blank");
+}

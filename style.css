@@ -412,7 +412,7 @@ ol{
 .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 44%;
     width: auto;
     padding: 16px;
     margin-top: -22px;
@@ -429,7 +429,7 @@ ol{
 /* Position the "next button" to the right */
 .next {
     right: 0;
-    transform: translate(162px,0px);
+    transform: translate(165px,0px);
     border-radius: 3px 0 0 3px;
 }
 
@@ -943,7 +943,7 @@ body{
     z-index: 101;
 }
 #hydrogenTruckk:hover{
-    z-index: 101;  
+    z-index: 101;
 }
 #hydrogenAeroo:hover{
     z-index: 101;
@@ -951,4 +951,10 @@ body{
 #lol4{
     transform: translate(50px,0px);
 }
- 
+
+#secret{
+    color: rgb(95, 15, 64);
+}
+#secret:hover{
+    cursor: pointer;
+}
