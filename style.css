@@ -22,7 +22,11 @@ body {
     overflow: scroll;
     scroll-behavior: smooth;
 }
-
+@media only screen and (min-width: 1550px) {
+    #myVideo {
+      width:1600px;
+    }
+  }
 ul {
     padding-right: 20px;
     position: fixed;
@@ -171,7 +175,6 @@ a {
     transition: 0.35s linear;
     z-index: 2;
     scale: 0.7;
-
     overflow: hidden;
 }
 
@@ -747,10 +750,10 @@ body{
     height:5640px;
 }
 .thanks{
-    transform: translate(1000px,190px);
+    transform: translate(930px,190px);
 }
 .by{
-    transform: translate(1300px,150px);
+    transform: translate(1230px,150px);
     font-size: 20px;
 }
 #track{
